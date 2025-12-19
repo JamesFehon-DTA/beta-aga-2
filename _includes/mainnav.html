@@ -67,7 +67,7 @@
         data-component-name="ct-menu"
       >    
     
-    {% for mobilelink in site.data.mainnav %}
+    {% for mobilelink in site.data.navs.mainnav %}
 
         <li class="ct-menu__item ct-menu__item--level-0">
           <a
@@ -89,7 +89,7 @@
         data-component-name="ct-menu"
       >
 
-    {% for site in site.data.crosssitenav %}
+    {% for site in site.data.navs.crosssitenav %}
 
         <li class="ct-menu__item ct-menu__item--level-0">
           <a
@@ -118,7 +118,7 @@
     >
 
       
-    {% for item in site.data.mainnav %}
+    {% for item in site.data.navs.mainnav %}
 
         <li class="ct-menu__item ct-menu__item--level-0">
           <a
