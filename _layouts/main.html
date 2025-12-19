@@ -104,7 +104,18 @@
         <main class="ct-layout ct-vertical-spacing--top" role="main">
           {{ CONTENT_TOP }}
           <div class="ct-layout__inner container" data-masonry="true">
-            <section class="ct-layout__main">{{ content }}</section>
+            <section class="ct-layout__main">
+              
+        <div class="container">
+          <div class="row">
+            <div class="col-xxs-12">
+              {{ content }}
+            </div>
+          </div>
+        </div>
+              
+              
+            </section>
 
             <aside class="ct-layout__sidebar_top_left">
               {{ SIDEBAR_TOP_LEFT }}
