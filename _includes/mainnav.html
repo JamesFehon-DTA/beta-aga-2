@@ -67,15 +67,15 @@
         data-component-name="ct-menu"
       >    
     
-    {% for item in site.data.mainnav %}
+    {% for mobilelink in site.data.mainnav %}
 
         <li class="ct-menu__item ct-menu__item--level-0">
           <a
             class="ct-link ct-theme-light ct-menu__item__link"
-            href="{{ item.url }}"
-            title="{{ item.title }}"
+            href="{{ mobilelink.url }}"
+            title="{{ mobilelink.title }}"
           >
-            {{ item.title }}
+            {{ mobilelink.title }}
           </a>
         </li>
     {% endfor %}
@@ -89,15 +89,15 @@
         data-component-name="ct-menu"
       >
 
-    {% for item in site.data.crosssitenav %}
+    {% for site in site.data.crosssitenav %}
 
         <li class="ct-menu__item ct-menu__item--level-0">
           <a
             class="ct-link ct-theme-light ct-menu__item__link"
-            href="{{ item.url }}"
-            title="{{ item.title }}"
+            href="{{ site.url }}"
+            title="{{ site.title }}"
           >
-            {{ item.title }}
+            {{ site.title }}
           </a>
         </li>
     {% endfor %}
