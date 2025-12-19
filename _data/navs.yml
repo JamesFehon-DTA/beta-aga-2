@@ -2,30 +2,30 @@ mainnav:
   -
     items:
       -
-        page: 'Use the AGA'
+        title: 'Use the AGA'
         url: /use/
         subfolderitems:
           -
-            page: 'Prepare your digital proposal'
+            title: 'Prepare your digital proposal'
             url: /
           -
-            page: 'Plan your digital project'
+            title: 'Plan your digital project'
             url: /
       -
-        page: 'Explore resources'
+        title: 'Explore resources'
         url: /explore/
       -
-        page: 'About'
+        title: 'About'
         url: /about/
         subfolderitems:
           -
-            page: 'Content types'
+            title: 'Content types'
             url: /
           -
-            page: 'Help'
+            title: 'Help'
             url: /
           -
-            page: 'Contact us'
+            title: 'Contact us'
             url: /
 
 
@@ -33,26 +33,26 @@ legalfooternav:
   -
     items:
       -
-        page: 'Accessibility'
+        title: 'Accessibility'
         url:
       -
-        page: 'Privacy'
+        title: 'Privacy'
         url:
       -
-        page: 'Copyright and disclaimers'
+        title: 'Copyright and disclaimers'
         url:
       -
-        page: 'Sitemap'
+        title: 'Sitemap'
         url:
 crosssitenav:
   -
     items:
       -
-        page: 'digital.gov.au'
+        title: 'digital.gov.au'
         url: https://www.digital.gov.au/
       -
-        page: 'BuyICT'
+        title: 'BuyICT'
         url: https://buyict.gov.au/
       -
-        page: 'Data and Digital'
+        title: 'Data and Digital'
         url: https://www.dataanddigital.gov.au/
