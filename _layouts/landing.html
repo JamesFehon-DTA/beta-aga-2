@@ -1,0 +1,42 @@
+---
+layout: main
+---
+        <main class="ct-layout ct-vertical-spacing--top" role="main">
+          <!--  CONTENT_TOP  -->
+           {{ content }}
+          
+          <div class="ct-layout__inner container" data-masonry="true">
+            <section class="ct-layout__main">
+              
+              <div class="ct-basic-content ct-theme-light">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xxs-12">
+                    <!-- CONTENT -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+            </section>
+
+            <aside class="ct-layout__sidebar_top_left">
+              {{ SIDEBAR_TOP_LEFT }}
+            </aside>
+
+            <aside class="ct-layout__sidebar_top_right">
+              {{ SIDEBAR_TOP_RIGHT }}
+            </aside>
+
+            <aside class="ct-layout__sidebar_bottom_left">
+              {{ SIDEBAR_BOTTOM_LEFT }}
+            </aside>
+
+            <aside class="ct-layout__sidebar_bottom_right">
+              {{ SIDEBAR_BOTTOM_RIGHT }}
+            </aside>
+          </div>
+
+          {{ CONTENT_BOTTOM }}
+        </main>
