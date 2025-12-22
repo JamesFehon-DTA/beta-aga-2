@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: landing
 ---
 
-Hello there!
+{% include welcome.html %}
